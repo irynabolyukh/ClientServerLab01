@@ -20,7 +20,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.mkyong.hashing.App</mainClass>
+                  <mainClass>org.clientserver.App</mainClass>
                 </transformer>
               </transformers>
             </configuration>

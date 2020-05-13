@@ -1,16 +1,5 @@
-package com.mkyong.hashing;
+package org.clientserver;
 
-/**
- * Hello world!
- *
- */
-/*public class App
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
-}*/
 import org.apache.commons.codec.digest.DigestUtils;
 
 public class App {
