@@ -16,14 +16,14 @@ public class MainTest{
         final byte[] messageToBytes = message.getBytes(StandardCharsets.UTF_8);
         final String input_msg = ("13 01 0000000000000001 00000010 5E2C" + Hex.encodeHexString(messageToBytes) + " 4839").replace(" ","");
 
-        Main.encode(Hex.decodeHex(input_msg));
+        Decode.decode(input_msg);
     }
 
     @Test
     void checkWhether_InvalidMagicByte(){
         assertThrows(
                 IllegalArgumentException.class,
-                () -> Main.encode(Hex.decodeHex("11"))
+                () -> Decode.decode("11")
         );
     }
 
