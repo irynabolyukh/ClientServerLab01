@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b447eaa3-37a9-448e-902c-2c00807abc99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/clientserver/Decode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/clientserver/Decode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/clientserver/Encode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/clientserver/Encode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/clientserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/clientserver/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/clientserver/MessageCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/clientserver/MessageCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/clientserver/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/clientserver/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="136">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/Decode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+            <state relative-caret-position="266">
+              <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/clientserver/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="148">
               <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,8 +70,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/Encode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <state relative-caret-position="136">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,11 +82,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/MessageCipher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
+            <state relative-caret-position="-321">
               <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding>
-                <marker date="1589554293548" expanded="true" signature="420:678" ph="..." />
-                <marker date="1589554293548" expanded="true" signature="423:624" ph="..." />
+                <marker date="1589557688653" expanded="true" signature="420:678" ph="..." />
+                <marker date="1589557688653" expanded="true" signature="423:624" ph="..." />
               </folding>
             </state>
           </provider>
@@ -121,10 +121,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/clientserver/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/clientserver/Package.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/clientserver/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/clientserver/Decode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/clientserver/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/clientserver/MessageCipher.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/clientserver/Encode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/clientserver/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/clientserver/Decode.java" />
       </list>
     </option>
   </component>
@@ -146,7 +146,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-27" />
-    <option name="width" value="999" />
+    <option name="width" value="1036" />
     <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -290,7 +290,7 @@
       <workItem from="1589349442760" duration="2196000" />
       <workItem from="1589358889732" duration="9602000" />
       <workItem from="1589538592927" duration="6197000" />
-      <workItem from="1589546123232" duration="11548000" />
+      <workItem from="1589546123232" duration="13246000" />
     </task>
     <servers />
   </component>
@@ -327,13 +327,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33830000" />
+    <option name="totallyTimeSpent" value="35528000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-27" y="0" width="999" height="788" extended-state="0" />
-    <editor active="true" />
+    <frame x="-27" y="0" width="1036" height="788" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03940362" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.037909836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,7 +341,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.54765505" weight="0.58473283" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.54765505" visible="true" weight="0.34961832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -350,7 +349,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32998326" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.12769486" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.340458" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.45234492" side_tool="true" weight="0.26841244" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.32366413" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -417,35 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/MessageCipher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <marker date="1589554293548" expanded="true" signature="420:678" ph="..." />
-            <marker date="1589554293548" expanded="true" signature="423:624" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/Encode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/clientserver/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1589552213932" expanded="true" signature="471:1146" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/CRC16.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -456,20 +426,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/Decode.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/clientserver/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        <state relative-caret-position="148">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1589552213932" expanded="true" signature="471:1146" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="136">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/MessageCipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <marker date="1589557688653" expanded="true" signature="420:678" ph="..." />
+            <marker date="1589557688653" expanded="true" signature="423:624" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/Encode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/clientserver/Decode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="46" column="66" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

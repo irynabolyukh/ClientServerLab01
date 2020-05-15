@@ -17,10 +17,10 @@ public class Decode {
                 .order(ByteOrder.BIG_ENDIAN)
                 .getLong();
         System.out.println("Packet ID: " + packId);
-        final int msgLen = ByteBuffer.wrap(input_msg, 10, 4)
+        final int msgLenEnc = ByteBuffer.wrap(input_msg, 10, 4)
                 .order(ByteOrder.BIG_ENDIAN)
                 .getInt();
-        System.out.println("Length of message: " + msgLen);
+        System.out.println("Length of message: " + msgLenEnc);
         final short crc1 = ByteBuffer.wrap(input_msg, 14, 2)
                 .order(ByteOrder.BIG_ENDIAN)
                 .getShort();
@@ -29,10 +29,10 @@ public class Decode {
         if(crc1Evaluated != crc1){
             throw new IllegalArgumentException("CRC1 expected: " + crc1Evaluated + ", out was " + crc1);
         }
-        byte[] enc_message = new byte[msgLen];
-        System.arraycopy(input_msg, 16, enc_message, 0, msgLen);
+        byte[] enc_message = new byte[msgLenEnc];
+        System.arraycopy(input_msg, 16, enc_message, 0, msgLenEnc);
         byte[] decr_message = mc.decipher(enc_message);
-        //byte[] decr_message = enc_message;
+        final int msgLenDecr = decr_message.length;
         System.out.println("Whole message: " + new String(decr_message));
         final int cType = ByteBuffer.wrap(decr_message, 0, 4)
                 .order(ByteOrder.BIG_ENDIAN)
@@ -42,15 +42,14 @@ public class Decode {
                 .order(ByteOrder.BIG_ENDIAN)
                 .getInt();
         System.out.println("Message owner: " + mUserId);
-        byte[] jsonArray = new byte[msgLen-8];
-        System.arraycopy(enc_message, 8, jsonArray, 0, msgLen-8);
+        byte[] jsonArray = new byte[msgLenDecr-8];
+        System.arraycopy(decr_message, 8, jsonArray, 0, msgLenDecr-8);
         System.out.println("Message body: " + new String(jsonArray));
-//        System.out.println("Message from user: " + new String(decr_message));
-        final short crc2 = ByteBuffer.wrap(input_msg, 16 + msgLen, 2)
+        final short crc2 = ByteBuffer.wrap(input_msg, 16 + msgLenEnc, 2)
                 .order(ByteOrder.BIG_ENDIAN)
                 .getShort();
         System.out.println("CRC 2: " + crc2);
-        final short crc2Evaluated = CRC16.evaluateCrc(enc_message, 0, msgLen);
+        final short crc2Evaluated = CRC16.evaluateCrc(enc_message, 0, msgLenEnc);
         if(crc2Evaluated != crc2){
             throw new IllegalArgumentException("CRC2 expected: " + crc2Evaluated + ", out was " + crc2);
         }
