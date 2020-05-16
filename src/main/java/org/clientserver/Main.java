@@ -13,9 +13,8 @@ public class Main {
     public static void main(String[] args) throws BadPaddingException, IllegalBlockSizeException, NoSuchAlgorithmException, NoSuchPaddingException, DecoderException {
         MessageCipher mc = new MessageCipher();
         final byte[] respond = Encode.buildResponse(mc);
-        final String resp = new String(respond);
-        System.out.println("Package to send: "+resp);
-        System.out.println("\nResponse from server:");
+        System.out.println("Package to send: "+Hex.encodeHexString(respond));
+        System.out.println("\nReceived package:");
         Decode.decode(Encode.buildResponse(mc),mc);
     }
 }
